@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Rsb_xtoB9USlQT9ilcCMpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="astrologyfutureeye.com/astro-calculators/sun-sign-calculator" CVScreenId="3c2997e1-2b87-4268-b68f-0bf511cf4910" CvElementArea="844, 605, 231, 44" CvType="InputBox" DesignTimeRectangle="846, 607, 227, 40" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='month' tag='SELECT' /&gt;" Guid="d304078a-2725-40da-a005-7c7829d6e4a2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sun Sign Calculator | Western Zodiac Sign Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="169, 345, 1581, 152" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='main' tag='P' class='' aaname=' is based on the planet Moon, which is practiced in India and other eastern countries. Though, they also consider Surya Rashi and the planet Sun significant. Usually, Indian astrology is based on the Moon zodiac and western astrology on the Sun corpus. To know , use the Rashifal calculator.' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Eastern astrology is based on the planet Moon, which is practiced in India and other eastern countries. Though, they also consider Surya Rashi and the planet Sun significant. Usually, Indian astrology is based on the Moon zodiac and western astrology on the Sun corpus. To know Surya Rashifal in Hindi, use the Rashifal calculator.' /&gt;" Guid="2da73103-afaa-4584-8685-213b01d051b8" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c146ef28daddaa1bf6c4ed733156e91c.png" xmlns="">0Bp-Cp97pUkuQgzzctbnl_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="0bG5MfE_vkqB5ARiKqroow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFCSURBVDhP7ZDPK8NxGMdf+KLYD+ZryViT/FhNo9asLAcHioaVC6X5vbJivs8OxsoOW4mDHXZCjpQr5iA3UqR2cPPHfPRVK3+A41711FNPz6vneUOVf0UDHIAXCAAhen1hbPrkbw+DgA60AQ1/F2uARqATmNUgqVnthnVhQzoOi+KUU6HPbwDbwBYQBfxAK1BbEViAmcCw33h6uJfQ8qYsPpeFXr/4ji9lIFuU6chsKi1GytPlSgFJYB5wmwLzpKked3dKKWWWzKzHJV3+lvBBXpJvX+JN7MtjqSTmPJvJmIIVIAjYTMGEx+2O3d5cryql1pRSidLd3W5gLrq3VCga4XhChoKj8vH6slMsnMUcdtsE4AHqKxloc5GI5fPj3Xp1cW7LZY9cJ/lcv261+IARYNzVro+1NDeZwTqBusrvVf6JH5sGV4N/HtAQAAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' title='Sun Sign Calculator | Western Zodiac Sign Calculator' /&gt;" Url="https://astrologyfutureeye.com/astro-calculators/sun-sign-calculator" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="30e3b01edefdfe94bb9b52cd75d3d797.jpg" xmlns="">0VxkQ_8AYGECC5mqMCumLSQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="3h7mgG68OUqqvFPYzxaejQ" Reference="ZMAms1IvA0m9Rk6qyA0Rkg/vYDQZanNukuHuUisVMa0Jw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="BTtHT0ZuuE-L1MvKWNIWJA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFCSURBVDhP7ZDPK8NxGMdf+KLYD+ZryViT/FhNo9asLAcHioaVC6X5vbJivs8OxsoOW4mDHXZCjpQr5iA3UqR2cPPHfPRVK3+A41711FNPz6vneUOVf0UDHIAXCAAhen1hbPrkbw+DgA60AQ1/F2uARqATmNUgqVnthnVhQzoOi+KUU6HPbwDbwBYQBfxAK1BbEViAmcCw33h6uJfQ8qYsPpeFXr/4ji9lIFuU6chsKi1GytPlSgFJYB5wmwLzpKked3dKKWWWzKzHJV3+lvBBXpJvX+JN7MtjqSTmPJvJmIIVIAjYTMGEx+2O3d5cryql1pRSidLd3W5gLrq3VCga4XhChoKj8vH6slMsnMUcdtsE4AHqKxloc5GI5fPj3Xp1cW7LZY9cJ/lcv261+IARYNzVro+1NDeZwTqBusrvVf6JH5sGV4N/HtAQAAAAAElFTkSuQmCC" Reference="ZMAms1IvA0m9Rk6qyA0Rkg/vYDQZanNukuHuUisVMa0Jw" Selector="&lt;html app='chrome.exe' title='Online Astrology Predictions | Numerology Calculators' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="616ad4b98d0f2d6277e99a5a54387e31.jpg" xmlns="">0ZOUXGAJnF0G7OzDcFJY6xg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

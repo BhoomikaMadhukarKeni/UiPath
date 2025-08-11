@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rXlRS1ijK0i8C28gA6Umfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="astrologyfutureeye.com/zodiac/pisces-sign" CVScreenId="6c8f2101-aea4-4884-8ccf-8147737fa186" CvType="AnyWordGroup" DesignTimeRectangle="935, 559, 744, 21" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='CAPTION' /&gt;" Guid="b5400924-6c1e-4c60-b837-e04713aaafb4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Pisces Horoscope | Pisces Traits and Personality Forecast' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1307, 660, 372, 60" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='TD' aaname='Constellation - Purvabhadrapad, Uttrabhadrapad, Revti' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Constellation - Purvabhadrapad, Uttrabhadrapad, Revti' /&gt;" Guid="b1529876-e363-4bb4-b45c-714d10b19768" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bb93e50767268536c94fffc332036e32.png" xmlns="">08JVkh-vtzEWYSHO6XSz_bw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

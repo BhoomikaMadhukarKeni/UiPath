@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Qp9DVzbjlUmxx2lzKSmgCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="astrologyfutureeye.com/astro-calculators/sun-sign-calculator" CVScreenId="f4b43551-4bf5-46a5-96d1-cfefaee066d6" CvElementArea="833, 912, 254, 39" CvTextArea="927, 922, 62, 16" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="835, 581, 250, 36" ElementType="Button" FullSelectorArgument="&lt;webctrl id='sub' tag='INPUT' /&gt;" Guid="0815f64b-cfeb-4825-9433-332e97987c69" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sun Sign Calculator | Western Zodiac Sign Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9aa329c3-e8d5-4d95-8fe3-4478766b63dd" CvTextArea="534, 757, 589, 42" CvTextArgument="Prediction by date of birth" CvType="Text" DesignTimeRectangle="533, 748, 591, 61" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='aswift_2' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='A' type='' class='ns-wj1mr-e-5' aaname='Prediction by date of birth' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Prediction by date of birth' /&gt;" Guid="924986cc-887b-440d-bd2d-0dd322369f7b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a5a12d974d02812efd002247127f7bd8.png" xmlns="">0tGYNDOhptEu701E1hCt69A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

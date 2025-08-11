@@ -1,0 +1,314 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1177.2,2238.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="result" />
+      <Variable x:TypeArguments="x:String" Name="variable1" />
+      <Variable x:TypeArguments="x:String" Name="day" />
+      <Variable x:TypeArguments="x:String" Name="month" />
+      <Variable x:TypeArguments="x:String" Name="year" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter day " Title="Enter day :" TopMost="False">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[day]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter month : " Title="Enter month " TopMost="False">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[month]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="Enter year : " Title="Enter year : " TopMost="False">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[year]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Sun Sign Calculator  Western Zodiac Si" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,1394.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="b9b4b254-00e2-4d0c-a421-f30a64f17bd2" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1154.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NSelectItem DisplayName="Select Item 'Usually, Indian astrolo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[day]" ScopeIdentifier="b9b4b254-00e2-4d0c-a421-f30a64f17bd2" Version="V5">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="32">
+                  <x:String>Select</x:String>
+                  <x:String>1</x:String>
+                  <x:String>2</x:String>
+                  <x:String>3</x:String>
+                  <x:String>4</x:String>
+                  <x:String>5</x:String>
+                  <x:String>6</x:String>
+                  <x:String>7</x:String>
+                  <x:String>8</x:String>
+                  <x:String>9</x:String>
+                  <x:String>10</x:String>
+                  <x:String>11</x:String>
+                  <x:String>12</x:String>
+                  <x:String>13</x:String>
+                  <x:String>14</x:String>
+                  <x:String>15</x:String>
+                  <x:String>16</x:String>
+                  <x:String>17</x:String>
+                  <x:String>18</x:String>
+                  <x:String>19</x:String>
+                  <x:String>20</x:String>
+                  <x:String>21</x:String>
+                  <x:String>22</x:String>
+                  <x:String>23</x:String>
+                  <x:String>24</x:String>
+                  <x:String>25</x:String>
+                  <x:String>26</x:String>
+                  <x:String>27</x:String>
+                  <x:String>28</x:String>
+                  <x:String>29</x:String>
+                  <x:String>30</x:String>
+                  <x:String>31</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="astrologyfutureeye.com/astro-calculators/sun-sign-calculator" CVScreenId="9aa329c3-e8d5-4d95-8fe3-4478766b63dd" ContentHash="AOBQrOfGRU-okWmAopA6hg" CvElementArea="612, 519, 231, 42" CvType="InputBox" DesignTimeRectangle="613, 520, 228, 40" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='day' tag='SELECT' /&gt;" Guid="ac649f0c-6f65-466b-96bf-3398eb43ba5d" InformativeScreenshot="a79e402370c031c7c9bd962e16982ee9.png" Reference="ZMAms1IvA0m9Rk6qyA0Rkg/8dbUqP2xhEaG_3_iKrsd8g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sun Sign Calculator | Western Zodiac Sign Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="169, 258, 1581, 152" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='main' tag='P' class='' aaname=' is based on the planet Moon, which is practiced in India and other eastern countries. Though, they also consider Surya Rashi and the planet Sun significant. Usually, Indian astrology is based on the Moon zodiac and western astrology on the Sun corpus. To know , use the Rashifal calculator.' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Eastern astrology is based on the planet Moon, which is practiced in India and other eastern countries. Though, they also consider Surya Rashi and the planet Sun significant. Usually, Indian astrology is based on the Moon zodiac and western astrology on the Sun corpus. To know Surya Rashifal in Hindi, use the Rashifal calculator.' /&gt;" Guid="b0974f8c-38be-467e-9d8f-aea2ce131f4f" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NSelectItem DisplayName="Select Item 'Eastern astrology is ba…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[month]" ScopeIdentifier="b9b4b254-00e2-4d0c-a421-f30a64f17bd2" Version="V5">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="13">
+                  <x:String>Select</x:String>
+                  <x:String>January</x:String>
+                  <x:String>February</x:String>
+                  <x:String>March</x:String>
+                  <x:String>April</x:String>
+                  <x:String>May</x:String>
+                  <x:String>June</x:String>
+                  <x:String>July</x:String>
+                  <x:String>August</x:String>
+                  <x:String>September</x:String>
+                  <x:String>October</x:String>
+                  <x:String>November</x:String>
+                  <x:String>December</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="astrologyfutureeye.com/astro-calculators/sun-sign-calculator" CVScreenId="3c2997e1-2b87-4268-b68f-0bf511cf4910" ContentHash="Rsb_xtoB9USlQT9ilcCMpg" CvElementArea="844, 605, 231, 44" CvType="InputBox" DesignTimeRectangle="846, 607, 227, 40" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='month' tag='SELECT' /&gt;" Guid="d304078a-2725-40da-a005-7c7829d6e4a2" InformativeScreenshot="c146ef28daddaa1bf6c4ed733156e91c.png" Reference="ZMAms1IvA0m9Rk6qyA0Rkg/YAZ7P-DayUKww0DsQHStHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sun Sign Calculator | Western Zodiac Sign Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="169, 345, 1581, 152" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='main' tag='P' class='' aaname=' is based on the planet Moon, which is practiced in India and other eastern countries. Though, they also consider Surya Rashi and the planet Sun significant. Usually, Indian astrology is based on the Moon zodiac and western astrology on the Sun corpus. To know , use the Rashifal calculator.' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Eastern astrology is based on the planet Moon, which is practiced in India and other eastern countries. Though, they also consider Surya Rashi and the planet Sun significant. Usually, Indian astrology is based on the Moon zodiac and western astrology on the Sun corpus. To know Surya Rashifal in Hindi, use the Rashifal calculator.' /&gt;" Guid="2da73103-afaa-4584-8685-213b01d051b8" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NSelectItem DisplayName="Select Item '1995'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="[year]" ScopeIdentifier="b9b4b254-00e2-4d0c-a421-f30a64f17bd2" Version="V5">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="50">
+                  <x:String>Select</x:String>
+                  <x:String>1925</x:String>
+                  <x:String>1926</x:String>
+                  <x:String>1927</x:String>
+                  <x:String>1928</x:String>
+                  <x:String>1929</x:String>
+                  <x:String>1930</x:String>
+                  <x:String>1931</x:String>
+                  <x:String>1932</x:String>
+                  <x:String>1933</x:String>
+                  <x:String>1934</x:String>
+                  <x:String>1935</x:String>
+                  <x:String>1936</x:String>
+                  <x:String>1937</x:String>
+                  <x:String>1938</x:String>
+                  <x:String>1939</x:String>
+                  <x:String>1940</x:String>
+                  <x:String>1941</x:String>
+                  <x:String>1942</x:String>
+                  <x:String>1943</x:String>
+                  <x:String>1944</x:String>
+                  <x:String>1945</x:String>
+                  <x:String>1946</x:String>
+                  <x:String>1947</x:String>
+                  <x:String>1948</x:String>
+                  <x:String>1949</x:String>
+                  <x:String>1950</x:String>
+                  <x:String>1951</x:String>
+                  <x:String>1952</x:String>
+                  <x:String>1953</x:String>
+                  <x:String>1954</x:String>
+                  <x:String>1955</x:String>
+                  <x:String>1956</x:String>
+                  <x:String>1957</x:String>
+                  <x:String>1958</x:String>
+                  <x:String>1959</x:String>
+                  <x:String>1960</x:String>
+                  <x:String>1961</x:String>
+                  <x:String>1962</x:String>
+                  <x:String>1963</x:String>
+                  <x:String>1964</x:String>
+                  <x:String>1965</x:String>
+                  <x:String>1966</x:String>
+                  <x:String>1967</x:String>
+                  <x:String>1968</x:String>
+                  <x:String>1969</x:String>
+                  <x:String>1970</x:String>
+                  <x:String>1971</x:String>
+                  <x:String>1972</x:String>
+                  <x:String>1973</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="astrologyfutureeye.com/astro-calculators/sun-sign-calculator" CVScreenId="9fc9ee07-60fd-4553-84f6-18f35589b8ce" ContentHash="733_a-joPkGUrRmzh0-pUw" CvElementArea="1076, 851, 233, 43" CvType="InputBox" DesignTimeRectangle="1078, 853, 228, 40" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='year' tag='SELECT' /&gt;" Guid="2af2096b-4bbb-4603-aa12-fda7e45fec23" InformativeScreenshot="02aae545636fe447b548436602f4801d.png" Reference="ZMAms1IvA0m9Rk6qyA0Rkg/ZFBvvvmk60-rXg9pauKYwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sun Sign Calculator | Western Zodiac Sign Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="553, 743, 813, 228" ElementType="Container" FuzzySelectorArgument="&lt;webctrl id='sc' tag='FORM' type='' class='center' aaname='  ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sun Sign Finder&amp;#xA;Birth Details (DD/MM/YY)&amp;#xA;Select&amp;#xA;1&amp;#xA;2&amp;#xA;3&amp;#xA;4&amp;#xA;5&amp;#xA;6&amp;#xA;7&amp;#xA;8&amp;#xA;9&amp;#xA;10&amp;#xA;11&amp;#xA;12&amp;#xA;13&amp;#xA;14&amp;#xA;15&amp;#xA;16&amp;#xA;17&amp;#xA;18&amp;#xA;19&amp;#xA;20&amp;#xA;21&amp;#xA;22&amp;#xA;23&amp;#xA;24&amp;#xA;25&amp;#xA;26&amp;#xA;27&amp;#xA;28&amp;#xA;29&amp;#xA;30&amp;#xA;31&amp;#xA; &amp;#xA;Select&amp;#xA;January&amp;#xA;February&amp;#xA;March&amp;#xA;April&amp;#xA;May&amp;#xA;June&amp;#xA;July&amp;#xA;August&amp;#xA;September&amp;#xA;October&amp;#xA;November&amp;#xA;December&amp;#xA; &amp;#xA;Select&amp;#xA;1925&amp;#xA;1926&amp;#xA;1927&amp;#xA;1928&amp;#xA;1929&amp;#xA;1930&amp;#xA;1931&amp;#xA;1932&amp;#xA;1933&amp;#xA;1934&amp;#xA;1935&amp;#xA;1936&amp;#xA;1937&amp;#xA;1938&amp;#xA;1939&amp;#xA;1940&amp;#xA;1941&amp;#xA;1942&amp;#xA;1943&amp;#xA;1944&amp;#xA;1945&amp;#xA;1946&amp;#xA;1947&amp;#xA;1948&amp;#xA;1949&amp;#xA;1950&amp;#xA;1951&amp;#xA;1952&amp;#xA;1953&amp;#xA;1954&amp;#xA;1955&amp;#xA;1956&amp;#xA;1957&amp;#xA;1958&amp;#xA;1959&amp;#xA;1960&amp;#xA;1961&amp;#xA;1962&amp;#xA;1963&amp;#xA;1964&amp;#xA;1965&amp;#xA;1966&amp;#xA;1967&amp;#xA;1968&amp;#xA;1969&amp;#xA;1970&amp;#xA;1971&amp;#xA;1972&amp;#xA;1973&amp;#xA;1974&amp;#xA;1975&amp;#xA;1976&amp;#xA;1977&amp;#xA;1978&amp;#xA;1979&amp;#xA;1980&amp;#xA;1981&amp;#xA;1982&amp;#xA;1983&amp;#xA;1984&amp;#xA;1985&amp;#xA;1986&amp;#xA;1987&amp;#xA;1988&amp;#xA;1989&amp;#xA;1990&amp;#xA;1991&amp;#xA;1992&amp;#xA;1993&amp;#xA;1994&amp;#xA;1995&amp;#xA;1996&amp;#xA;1997&amp;#xA;1998&amp;#xA;1999&amp;#xA;2000&amp;#xA;2001&amp;#xA;2002&amp;#xA;2003&amp;#xA;2004&amp;#xA;2005&amp;#xA;2006&amp;#xA;2007&amp;#xA;2008&amp;#xA;2009&amp;#xA;2010&amp;#xA;2011&amp;#xA;2012&amp;#xA;2013&amp;#xA;2014&amp;#xA;2015&amp;#xA;2016&amp;#xA;2017&amp;#xA;2018&amp;#xA;2019&amp;#xA;2020&amp;#xA;2021&amp;#xA;2022&amp;#xA;2023&amp;#xA;2024&amp;#xA;2025&amp;#xA;2026&amp;#xA;2027&amp;#xA;2028&amp;#xA;2029&amp;#xA;2030&amp;#xA;2031&amp;#xA;2032&amp;#xA;2033&amp;#xA;2034&amp;#xA;2035&amp;#xA;2036&amp;#xA;2037' /&gt;" Guid="109ea547-29aa-488e-bb9f-a51f1232f0d9" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b9b4b254-00e2-4d0c-a421-f30a64f17bd2" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="astrologyfutureeye.com/astro-calculators/sun-sign-calculator" CVScreenId="9aa329c3-e8d5-4d95-8fe3-4478766b63dd" ContentHash="dDvQ_TqI9EeVUmNJ9UZekw" CvElementArea="833, 579, 254, 39" CvTextArea="927, 590, 62, 16" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="835, 581, 250, 36" ElementType="Button" FullSelectorArgument="&lt;webctrl id='sub' tag='INPUT' /&gt;" Guid="9c7df88b-22dd-4955-8e8b-3ff06be09c89" InformativeScreenshot="2c937bcb48e6c9341f980226a66dd6a5.png" Reference="ZMAms1IvA0m9Rk6qyA0Rkg/n8wrk-CASkmVZRLYJeFzkw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sun Sign Calculator | Western Zodiac Sign Calculator' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="553, 410, 813, 228" ElementType="Container" FuzzySelectorArgument="&lt;webctrl id='sc' tag='FORM' type='' class='center' aaname='  ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sun Sign Finder&amp;#xA;Select a Day!&amp;#xA;Birth Details (DD/MM/YY)&amp;#xA;Select&amp;#xA;1&amp;#xA;2&amp;#xA;3&amp;#xA;4&amp;#xA;5&amp;#xA;6&amp;#xA;7&amp;#xA;8&amp;#xA;9&amp;#xA;10&amp;#xA;11&amp;#xA;12&amp;#xA;13&amp;#xA;14&amp;#xA;15&amp;#xA;16&amp;#xA;17&amp;#xA;18&amp;#xA;19&amp;#xA;20&amp;#xA;21&amp;#xA;22&amp;#xA;23&amp;#xA;24&amp;#xA;25&amp;#xA;26&amp;#xA;27&amp;#xA;28&amp;#xA;29&amp;#xA;30&amp;#xA;31&amp;#xA; &amp;#xA;Select&amp;#xA;January&amp;#xA;February&amp;#xA;March&amp;#xA;April&amp;#xA;May&amp;#xA;June&amp;#xA;July&amp;#xA;August&amp;#xA;September&amp;#xA;October&amp;#xA;November&amp;#xA;December&amp;#xA; &amp;#xA;Select&amp;#xA;1925&amp;#xA;1926&amp;#xA;1927&amp;#xA;1928&amp;#xA;1929&amp;#xA;1930&amp;#xA;1931&amp;#xA;1932&amp;#xA;1933&amp;#xA;1934&amp;#xA;1935&amp;#xA;1936&amp;#xA;1937&amp;#xA;1938&amp;#xA;1939&amp;#xA;1940&amp;#xA;1941&amp;#xA;1942&amp;#xA;1943&amp;#xA;1944&amp;#xA;1945&amp;#xA;1946&amp;#xA;1947&amp;#xA;1948&amp;#xA;1949&amp;#xA;1950&amp;#xA;1951&amp;#xA;1952&amp;#xA;1953&amp;#xA;1954&amp;#xA;1955&amp;#xA;1956&amp;#xA;1957&amp;#xA;1958&amp;#xA;1959&amp;#xA;1960&amp;#xA;1961&amp;#xA;1962&amp;#xA;1963&amp;#xA;1964&amp;#xA;1965&amp;#xA;1966&amp;#xA;1967&amp;#xA;1968&amp;#xA;1969&amp;#xA;1970&amp;#xA;1971&amp;#xA;1972&amp;#xA;1973&amp;#xA;1974&amp;#xA;1975&amp;#xA;1976&amp;#xA;1977&amp;#xA;1978&amp;#xA;1979&amp;#xA;1980&amp;#xA;1981&amp;#xA;1982&amp;#xA;1983&amp;#xA;1984&amp;#xA;1985&amp;#xA;1986&amp;#xA;1987&amp;#xA;1988&amp;#xA;1989&amp;#xA;1990&amp;#xA;1991&amp;#xA;1992&amp;#xA;1993&amp;#xA;1994&amp;#xA;1995&amp;#xA;1996&amp;#xA;1997&amp;#xA;1998&amp;#xA;1999&amp;#xA;2000&amp;#xA;2001&amp;#xA;2002&amp;#xA;2003&amp;#xA;2004&amp;#xA;2005&amp;#xA;2006&amp;#xA;2007&amp;#xA;2008&amp;#xA;2009&amp;#xA;2010&amp;#xA;2011&amp;#xA;2012&amp;#xA;2013&amp;#xA;2014&amp;#xA;2015&amp;#xA;2016&amp;#xA;2017&amp;#xA;2018&amp;#xA;2019&amp;#xA;2020&amp;#xA;2021&amp;#xA;2022&amp;#xA;2023&amp;#xA;2024&amp;#xA;2025&amp;#xA;2026&amp;#xA;2027&amp;#xA;2028&amp;#xA;2029&amp;#xA;2030&amp;#xA;2031&amp;#xA;2032&amp;#xA;2033&amp;#xA;2034&amp;#xA;2035&amp;#xA;2036&amp;#xA;2037' /&gt;" Guid="effac3e6-7c93-40b9-a114-eea837ddc5a0" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Your Sun sign is Pisces'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="b9b4b254-00e2-4d0c-a421-f30a64f17bd2" TextString="[result]" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="astrologyfutureeye.com/zodiac/pisces-sign" CVScreenId="6c8f2101-aea4-4884-8ccf-8147737fa186" ContentHash="rXlRS1ijK0i8C28gA6Umfg" CvType="AnyWordGroup" DesignTimeRectangle="935, 559, 744, 21" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tag='CAPTION' /&gt;" Guid="b5400924-6c1e-4c60-b837-e04713aaafb4" InformativeScreenshot="bb93e50767268536c94fffc332036e32.png" Reference="ZMAms1IvA0m9Rk6qyA0Rkg/JJubd601QEO1C8MPp2G9pA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Pisces Horoscope | Pisces Traits and Personality Forecast' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1307, 660, 372, 60" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='TD' aaname='Constellation - Purvabhadrapad, Uttrabhadrapad, Revti' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Constellation - Purvabhadrapad, Uttrabhadrapad, Revti' /&gt;" Guid="b1529876-e363-4bb4-b45c-714d10b19768" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,110.4" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[result]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="0bG5MfE_vkqB5ARiKqroow" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAFCSURBVDhP7ZDPK8NxGMdf+KLYD+ZryViT/FhNo9asLAcHioaVC6X5vbJivs8OxsoOW4mDHXZCjpQr5iA3UqR2cPPHfPRVK3+A41711FNPz6vneUOVf0UDHIAXCAAhen1hbPrkbw+DgA60AQ1/F2uARqATmNUgqVnthnVhQzoOi+KUU6HPbwDbwBYQBfxAK1BbEViAmcCw33h6uJfQ8qYsPpeFXr/4ji9lIFuU6chsKi1GytPlSgFJYB5wmwLzpKked3dKKWWWzKzHJV3+lvBBXpJvX+JN7MtjqSTmPJvJmIIVIAjYTMGEx+2O3d5cryql1pRSidLd3W5gLrq3VCga4XhChoKj8vH6slMsnMUcdtsE4AHqKxloc5GI5fPj3Xp1cW7LZY9cJ/lcv261+IARYNzVro+1NDeZwTqBusrvVf6JH5sGV4N/HtAQAAAAAElFTkSuQmCC" sap2010:WorkflowViewState.IdRef="TargetApp_2" InformativeScreenshot="30e3b01edefdfe94bb9b52cd75d3d797.jpg" Reference="ZMAms1IvA0m9Rk6qyA0Rkg/fB-xJGY20EmsD-o7RlVMAw" Selector="&lt;html app='chrome.exe' title='Sun Sign Calculator | Western Zodiac Sign Calculator' /&gt;" Url="https://astrologyfutureeye.com/astro-calculators/sun-sign-calculator" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
